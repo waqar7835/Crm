@@ -542,6 +542,7 @@ Updates are detected via:
 - [ ] `title_en` - Descriptive title present
 - [ ] `description_en` - Detailed description present
 - [ ] Description is readable (not just keywords)
+- [ ] `price` - Price is provided
 
 #### Agent Details
 
@@ -550,8 +551,6 @@ Updates are detected via:
 - [ ] `agent/phone` - Includes country code (+974 for Qatar)
 - [ ] Phone number is numeric (after country code)
 
-### 4. Recommended Fields
-
 #### Location
 
 - [ ] `community` - Main area/community specified
@@ -559,6 +558,8 @@ Updates are detected via:
 - [ ] `city` - City name provided
 - [ ] `geopoints` - Coordinates in format: latitude,longitude
 - [ ] Coordinates are valid Qatar locations (lat: 24-26, lng: 50-52)
+
+### 4. Recommended Fields
 
 #### Property Details
 
@@ -570,7 +571,6 @@ Updates are detected via:
 
 #### Pricing
 
-- [ ] `price` - Price is provided
 - [ ] Price is numeric (no currency symbols or commas)
 - [ ] Price structure is correct (yearly/monthly/simple)
 - [ ] `rental_period` or `frequency` specified for rentals
