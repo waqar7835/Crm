@@ -260,7 +260,7 @@ Once your feed is ready:
 
 ## 🔄 Feed Update Frequency
 
-- **Recommended:** Real-time or hourly updates
+- **Recommended:** Once a day
 - **Minimum:** Daily updates
 - System processes feeds automatically every day
 - Properties removed from feed will be marked as deleted
@@ -274,7 +274,7 @@ Once your feed is ready:
 
 - Your XML feed must be accessible via HTTPS
 - The feed should return `Content-Type: application/xml`
-- The feed must be updated regularly (recommended: real-time or at least hourly)
+- The feed must be updated regularly (recommended: Once a day)
 - Feed size should not exceed 50MB for optimal processing
 
 ## XML Structure
